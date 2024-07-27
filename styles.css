@@ -128,6 +128,7 @@
 
 .we__offer_card:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .we__offer_card img{
@@ -150,6 +151,121 @@
 .we__offer_content p{
     font-size: 16px;
     font-weight: 300;
+}
+
+/*Styles for collection container*/
+
+.container__collection_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 50px 70px 0 70px;
+    padding: 30px 30px 0 60px;
+
+}
+
+.container__collection_text{
+    width: 75%;
+}
+
+.container__collection_text h1{
+    font-size: 34px;
+    font-weight: 450;
+}
+
+.container__collection_text p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.container__collection_link{
+    width: 25%;
+}
+
+.container__collection_link a{
+    font-size: 18px;
+    font-weight: 250;
+    color: #e03546;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.container__collection_link:hover{
+    cursor: pointer;
+}
+
+.container__collection_examples{
+    width: 90%;
+    margin: 30px 70px;
+}
+
+.collection__examples{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.collection__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 260px;
+    height: 300px;
+}
+
+.collection__card a{
+    text-decoration: none;
+    color: white;
+}
+
+.collection__card:hover{
+    cursor: pointer;
+}
+
+.collection__card h1{
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.collection__card p{
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*.collection__card .arrow_icon{
+    height: 25px;
+    width: 25px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: solid 1px white;
+}*/
+
+
+#collection__card1{
+    background: url(./images/collection1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#collection__card2{
+    background: url(./images/collection2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#collection__card3{
+    background: url(./images/collection3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 
