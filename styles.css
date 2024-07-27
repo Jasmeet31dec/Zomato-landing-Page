@@ -89,12 +89,15 @@
     width: 65%;
 }
 
-.location__icon{
+.location__icon,
+.search_icon{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-left: 5px;
 }
+
+
 
 /* styling for section 2(card section i.e., container__we_offfer)*/
 
@@ -191,6 +194,7 @@
     text-decoration: none;
 }
 
+
 .container__collection_link:hover{
     cursor: pointer;
 }
@@ -266,6 +270,69 @@
     background: url(./images/collection3.jpg);
     background-size: cover;
     background-position: center;
+}
+
+/*styles for container popular localities*/
+
+.popularlocalities_text{
+    display: flex;
+    margin: 90px 110px 0px 110px;
+    width: 90%;
+}
+.popularlocalities_text h1{
+    font-size: 36px;
+    font-weight: 400;
+    color: #363636;
+}
+
+.popularlocalities_options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 40px 110px 90px 110px;
+}
+
+.popularlocalities__options_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    padding: 12px 15px;
+    transition: all 0.15s;
+}
+
+.popularlocalities__options_box_text{
+    width: 50%;
+}
+
+.popularlocalities__options_box_icon{
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.popularlocalities__options_box:hover{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.popularlocalities__options_box h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #363636;
+}
+
+#popularlocalities__options_box_seemore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popularlocalities__options_box p{
+    font-weight: 200;
+    color: #363636;
 }
 
 
